@@ -1,0 +1,426 @@
+/* https://coolors.co/212529-343a40-495057-6c757d-adb5bd-ced4da-dee2e6-e9ecef-f8f9fa */
+
+/* ===== Navbar Main ===== */
+.navbar-dark {
+	background-color: #212529 !important;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.navbar .container {
+	padding: 0 25px;
+}
+
+#sb-timeline #steps #steps-content #sb_booking_content .datetime-step #sb_dateview_container .top-date-select .calendar .weeks-date .day-on {
+ text-decoration:none;
+ color:red !important;
+}
+
+/* ===== Navbar Icon Bar ===== */
+.navbar-dark .navbar-toggler {
+	color: rgba(255, 255, 255, 1);
+	border-color: transparent;
+	border: none;
+	outline: none;
+}
+
+/* ===== Navbar Logo ===== */
+.navbar-brand {
+	background: url('../img/logo.png') no-repeat left center;
+	background-size: 100%;
+	width: 150px;
+	height: auto;
+	padding: 35px 0;
+}
+
+/* ===== Navbar Navigation ===== */
+.navbar-nav > li > a {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	padding: 24px 0;
+	margin: 0 10px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+	padding:25px;
+}
+
+.navbar-nav > li.active > a {
+	box-shadow: inset 0 3px #FFF;
+}
+
+/* ===== Section Header ===== */
+.page-header {
+	margin: 40px 0 20px 0;
+	padding: 0;
+	border: none;
+	color: white;
+}
+
+.page-header h2 {
+	text-transform: uppercase;
+}
+
+p.subtitle {
+	letter-spacing: 2px;
+	margin-top: 10px;
+}
+
+
+
+/* ===== Divider ===== */
+.divider {
+	width: 100%;
+	height: 23px;
+	background:  url('../img/divider.png') no-repeat center center;
+	margin: 5px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.room-panel {
+	height: 100%;
+	background-color: #F4F4F6;
+	border: -20px solid transparent;
+	border-radius: 15px !important;
+	box-shadow: 4px 5px 3px #222;
+}
+
+.room-banner {
+	width: 100%;
+	height: 262.5px;
+	border: -20px 0px solid transparent;
+	border-radius: 15px 15px 0 0 !important;
+
+}
+
+.teaser-1 {
+	background: url('../img/teaser-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.teaser-2 {
+	background: url('../img/teaser-2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.teaser-3 {
+	background: url('../img/teaser-3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.black-arcade {
+	background: url('../img/black-arcade.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.black-vs-white {
+	background: url('../img/black-vs-white.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.white-arcade {
+	background: url('../img/white-arcade.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.room-details {
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+
+
+/** Sub info **/
+.room-subinfo {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.room-subinfo li {
+	display: inline-block;
+}
+
+.room-subinfo li p {
+	display: inline-block;
+	font-weight: 600;
+	margin-right: 7px;
+}
+
+
+/* Button */
+.button {
+	display: inline-block;
+	margin: 10px;
+	padding: 8px 18px 10px;
+	text-transform: uppercase;
+	border: 1px solid black;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+
+.button:hover {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.parallax {
+	width: 100%;
+	position: relative;
+	background-color: #121417;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: auto;
+	padding: 60px 0;
+	
+}
+
+.overlay {
+	position: fixed;
+  	width: 100%;
+  	height: 100%;
+  	background-color: black;
+  	opacity: .6;
+}
+
+.caption {
+	margin-top: 0px;
+}
+
+.caption-logo {
+	width: 75%;
+	height: auto;
+}
+
+
+#home {
+	margin-top:  70px;
+}
+
+
+
+
+.home-text-top {
+	font-size: 60px;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-top: 100px;
+}
+
+.home-text {
+	font-size: 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-top: 30px;
+	word-wrap: break-word;
+}
+
+.home-text-bottom {
+	font-size: 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-bottom: 100px;
+}
+
+@media (max-width: 576px) {
+	.home-text {
+		font-size: 40px;
+		padding: 0;
+	}
+}
+
+
+
+.rotate-box-wrapper {
+	margin-bottom:  70px;
+	height: 120px;
+}
+
+
+.rotate-box {
+	background-color: #F4F4F6;
+	width: 120px;
+	height: 120px;
+	transform: rotate(45deg);
+	margin: 0 auto;
+	position: relative;
+	top: 25px;
+	box-shadow: 0 0 0 6px #FFFFFF, 0 0 0 7px #DADBD;
+	overflow: hidden;
+}
+
+.rotate-box:after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	border: 5px solid #363940;
+}
+
+.box-content {
+	transform: rotate(-45deg);
+	margin-top: 20px;
+	margin-left: -10px;
+	line-height: 1;
+}
+
+.box-content i {
+	margin: 0;
+	padding:  0;
+}
+
+.box-content h3 {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+	display: inline-block;**/
+
+.box-content .room-amount {
+	margin-left: 7px;
+}
+
+.box-content p {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.description {
+	color: #FFF;
+}
+
+#prices {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 20px 0 50px 0;
+	background-color: #212529;
+}
+
+#about {
+	margin-bottom: 60px;
+}
+
+.center-block {
+	max-width: 800px;
+}
+
+.contact-info {
+	color:  #FFF;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 15px 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.contact-info li {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+
+a {
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+
+}
+
+.cover {
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	padding: 20px;
+
+	background-color: rgba(5, 8, 11, 0.93);
+}
+
+.text-white {
+	color:  #FFF !important;
+}
+
+.page-header-wrapper {
+	position: relative;
+}
+
+#faq {
+	margin-top: 90px;
+	margin-bottom: 40px;
+}
+
+
+#footer {
+	height: 30px;
+	background-color: #121417;
+}
+
+
+
+
+.carousel-inner {
+	width:  100%;
+}
+
+.carousel-inner .carousel-item {
+	width:  100%;
+}
+
+#carouselExampleIndicators {
+	width:  100%;
+	padding: 100px 0;
+}
